@@ -1,4 +1,4 @@
-# A multi-view clustering framework via integrating K-means and graph-cut
+## A multi-view clustering framework via integrating K-means and graph-cut
 This is a demo of our paper, and details are in [[Paper]](https://authors.elsevier.com/c/1fLBn3INukKgMk)
 
 ### requirments
