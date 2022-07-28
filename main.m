@@ -6,6 +6,11 @@ dataname='MSRC';
 anchor_rate = 0.7;
 All_r = 1.5;
 
+% % >>> Ring Experiments >>> 
+% dataname='threeR';
+% anchor_rate = 0.5;
+% All_r = 12;
+
 % =============== initialize =============================
 fprintf('----------¡¾%s¡¿-------------\n',dataname);
 load([dataname '.mat']);
