@@ -6,6 +6,7 @@ dataname='MSRC';
 anchor_rate = 0.7;
 All_r = 1.5;
 
+% =============== initialize =============================
 fprintf('----------【%s】-------------\n',dataname);
 load([dataname '.mat']);
 try
@@ -18,7 +19,6 @@ nV=size(X,2);
 each_cluster_num = nN/cluser_num;%每一类的数目
 for r=All_r
     tic
-% =============== initialize =============================
     alpha=1/nV*ones(1,nV);
     opt1. style = 1;
     opt1. IterMax = 150;
